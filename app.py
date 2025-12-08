@@ -91,8 +91,3 @@ estimating $5.6M savings over 20 years.
 
 st.markdown("---")  # changed from st.divider()
 
-# --- CONTACT ---
-st.header("Contact")
-st.write("📧 Email: achusbaski@gmail.com") 
-st.write("📍 Location: Atlanta, GA")
-st.write("[LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
