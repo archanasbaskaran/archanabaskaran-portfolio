@@ -100,7 +100,7 @@ pdf_display = f"""
 """
 
 st.components.v1.html(pdf_display, height=700)
---
+#--
 st.subheader("🔹 Sentiment Analysis for School Board Communications (May–Jul 2025)")
 st.write("""
 NLP pipeline analyzing public education sentiment with real-time Power BI updates.
@@ -113,6 +113,7 @@ estimating $5.6M savings over 20 years.
 """)
 
 st.markdown("---")  # changed from st.divider()
+
 
 
 
