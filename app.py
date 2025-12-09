@@ -16,7 +16,7 @@ with tab1:
     st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
   
 col1, col2 = st.columns([2, 1])
-   with col1:
+with col1:
     st.header("Summary")
     st.write("""
     Data Analyst with experience across SaaS, federal agencies, and academic projects.
@@ -123,5 +123,6 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
