@@ -79,6 +79,21 @@ st.markdown("---")  # changed from st.divider()
 # --- PROJECTS ---
 st.header("Projects")
 
+st.subheader("🔹 Sentiment Analysis for School Board Communications (May–Jul 2025)")
+st.write("""
+NLP pipeline analyzing public education sentiment with real-time Power BI updates.
+""")
+
+with open("team079report.pdf", "rb") as f:
+    pdf_data = f.read()
+
+st.download_button(
+    label="⬇️ Download Report",
+    data=pdf_data,
+    file_name="team079report.pdf",
+    mime="application/pdf",
+)
+#--
 st.subheader("🔹 Hybrid STR Recommendation System (Jan–May 2025)")
 st.write("""
 Built a hybrid DNN + BERT + FAISS recommendation engine.
@@ -95,10 +110,6 @@ st.download_button(
     mime="application/pdf",
 )
 #--
-st.subheader("🔹 Sentiment Analysis for School Board Communications (May–Jul 2025)")
-st.write("""
-NLP pipeline analyzing public education sentiment with real-time Power BI updates.
-""")
 
 st.subheader("🔹 Oil Well Drilling Optimization (Aug–Dec 2024)")
 st.write("""
@@ -106,7 +117,18 @@ Performed EDA and modeling to identify ROP drivers; produced a cost model
 estimating $5.6M savings over 20 years.
 """)
 
+with open("team079report.pdf", "rb") as f:
+    pdf_data = f.read()
+
+st.download_button(
+    label="⬇️ Download Report",
+    data=pdf_data,
+    file_name="team079report.pdf",
+    mime="application/pdf",
+)
+
 st.markdown("---")  # changed from st.divider()
+
 
 
 
