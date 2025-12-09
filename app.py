@@ -21,10 +21,11 @@ with tab1:
     with col2:
         st.header("About Me")
         st.write("""
-        Data Analyst with experience across SaaS, federal agencies, and academic projects.
-        Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
-        dashboarding, machine learning, and NLP. Passionate about transforming data
-        into clear, actionable insights.
+        Hi, I’m Archana Baskaran.
+        I recently graduated with a master’s in Analytics from Georgia Tech. 
+        I have hands-on experience in machine learning, statistical modeling, and data visualization through projects and internships. 
+        I’m passionate about turning data into actionable insights and building solutions that solve real-world problems. 
+        I’m eager to grow as a data professional and contribute to projects that combine technical skills with meaningful impact.
         """)
 
 # ============================================================
@@ -123,6 +124,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
