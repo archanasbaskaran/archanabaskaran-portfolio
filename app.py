@@ -15,16 +15,16 @@ with tab1:
     st.subheader("BIS Health Informatics (Georgia State) | MS Data Analytics (Georgia Tech)")
     st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
   
-col1, col2 = st.columns([2, 1])
-with col1:
-    st.header("Summary")
-    st.write("""
-    Data Analyst with experience across SaaS, federal agencies, and academic projects.
-    Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
-    dashboarding, machine learning, and NLP. Passionate about transforming data
-    into clear, actionable insights.
-    """)
-with col2:
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.header("Summary")
+        st.write("""
+        Data Analyst with experience across SaaS, federal agencies, and academic projects.
+        Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
+        dashboarding, machine learning, and NLP. Passionate about transforming data
+        into clear, actionable insights.
+        """)
+    with col2:
         st.image("Profile_Pic.JPG", use_column_width=True)
 
 # ============================================================
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
