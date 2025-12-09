@@ -25,7 +25,7 @@ with col1:
     into clear, actionable insights.
     """)
 with col2:
-        st.image("Profile Pic.jpg", caption="Archana Baskaran", use_column_width=True)
+        st.image("Profile_Pic.jpg", caption="Archana Baskaran", use_column_width=True)
 
 # ============================================================
 # TAB 2 — SKILLS
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
