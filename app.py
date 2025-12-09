@@ -54,14 +54,14 @@ with tab2:
 with tab3:
     st.header("Experience")
 
-    st.subheader("📌 Informatics Fellow – CDC (Oct 2024–Mar 2025)")
+    st.subheader("🌟 Informatics Fellow – CDC (Oct 2024–Mar 2025)")
     st.write("""
     - Worked with metadata to extract relevant clinical features and built interactive dashboards  
     - Applied AI/ML and NLP to gain insights from quantitative and qualitative clinical and epidemiological data  
     - Conducted risk modeling, simulation, and performance measurement across public health programs  
     """)
 
-    st.subheader("📌 Data Analyst Intern – Infor (May 2024–Aug 2024)")
+    st.subheader("🌟 Data Analyst Intern – Infor (May 2024–Aug 2024)")
     st.write("""
     - Streamlined 20+ dashboards, reducing reporting redundancy across sales & marketing  
     - Built DOMO cards for Sales Play V2 dashboard  
@@ -69,7 +69,7 @@ with tab3:
     - Delivered KPI inventory & adoption analysis for 5+ dashboards  
     """)
 
-    st.subheader("📌 Data Intern – ASPR (Aug 2022–May 2023)")
+    st.subheader("🌟 Data Intern – ASPR (Aug 2022–May 2023)")
     st.write("""
     - Built outcome indicators evaluating long-term healthcare interventions  
     - Cleaned multi-state datasets using R  
@@ -77,7 +77,7 @@ with tab3:
     - Created public-facing data resource guides  
     """)
 
-    st.subheader("📌 Data Analytics Intern – HHS (Aug 2021–May 2022)")
+    st.subheader("🌟 Data Analytics Intern – HHS (Aug 2021–May 2022)")
     st.write("""
     - Analyzed COVID-19 and school-closure data with Tableau & HHS Protect  
     - Assessed recovery efforts across states  
@@ -124,6 +124,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
