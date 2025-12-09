@@ -11,7 +11,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["👤 About Me", "🛠 Skills", "💼 Experien
 # TAB 1 — ABOUT ME
 # ============================================================
 with tab1:
-    st.title("💼 Archana Baskaran")
+    st.title("Archana Baskaran")
     st.subheader("BIS Health Informatics (Georgia State) | MS Data Analytics (Georgia Tech)")
     st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
   
@@ -25,7 +25,7 @@ with col1:
     into clear, actionable insights.
     """)
 with col2:
-        st.image("Profile_Pic.JPG", caption="Archana Baskaran", use_column_width=True)
+        st.image("Profile_Pic.JPG", use_column_width=True)
 
 # ============================================================
 # TAB 2 — SKILLS
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
