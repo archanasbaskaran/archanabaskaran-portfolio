@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 
 
 st.set_page_config(page_title="Archana Baskaran", layout="wide")
@@ -88,18 +87,15 @@ Achieved 85% perceived relevance from user testing.
 
 st.header("📄 Team 079 Project Report")
 
-pdf_file = "team079report.pdf"
+with open("team079report.pdf", "rb") as f:
+    pdf_data = f.read()
 
-with open(pdf_file, "rb") as f:
-    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-
-pdf_display = f"""
-    <iframe src="data:application/pdf;base64,{base64_pdf}"
-            width="100%" height="700" type="application/pdf">
-    </iframe>
-"""
-
-st.components.v1.html(pdf_display, height=700)
+st.download_button(
+    label="⬇️ Download Report",
+    data=pdf_data,
+    file_name="team079report.pdf",
+    mime="application/pdf",
+)
 #--
 st.subheader("🔹 Sentiment Analysis for School Board Communications (May–Jul 2025)")
 st.write("""
@@ -113,6 +109,7 @@ estimating $5.6M savings over 20 years.
 """)
 
 st.markdown("---")  # changed from st.divider()
+
 
 
 
