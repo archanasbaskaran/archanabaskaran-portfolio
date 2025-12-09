@@ -17,6 +17,8 @@ with tab1:
   
     col1, col2 = st.columns([2, 1])
     with col1:
+        st.image("Profile_Pic.JPG", use_column_width=True)
+    with col2:
         st.header("Summary")
         st.write("""
         Data Analyst with experience across SaaS, federal agencies, and academic projects.
@@ -24,8 +26,6 @@ with tab1:
         dashboarding, machine learning, and NLP. Passionate about transforming data
         into clear, actionable insights.
         """)
-    with col2:
-        st.image("Profile_Pic.JPG", use_column_width=True)
 
 # ============================================================
 # TAB 2 — SKILLS
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
