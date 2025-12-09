@@ -5,7 +5,7 @@ import base64
 st.set_page_config(page_title="Archana Baskaran", layout="wide")
 
 # --- TABS ---
-tab1, tab2, tab3, tab4 = st.tabs(["👤 About Me", "🛠 Skills", "💼 Experience", "📂 Projects"])
+tab1, tab2, tab3 = st.tabs(["👤 About Me", "💼 Experience", "📂 Projects"])
 
 # ============================================================
 # TAB 1 — ABOUT ME
@@ -27,11 +27,6 @@ with tab1:
         I’m passionate about turning data into actionable insights and building solutions that solve real-world problems. 
         I’m eager to grow as a data professional and contribute to projects that combine technical skills with meaningful impact.
         """)
-
-# ============================================================
-# TAB 2 — SKILLS
-# ============================================================
-with tab2:
     st.header("Technical Skills")
     col3, col4 = st.columns(2)
 
@@ -47,11 +42,15 @@ with tab2:
         **ML/NLP:** BERT, VADER, DNN, FAISS  
         **Other:** Docker, Arena Simulation  
         """)
+# ============================================================
+# TAB 2 — SKILLS
+# ============================================================
+
 
 # ============================================================
 # TAB 3 — EXPERIENCE
 # ============================================================
-with tab3:
+with tab2:
     st.header("Experience")
 
     st.subheader("🌟 Informatics Fellow – CDC (Oct 2024–Mar 2025)")
@@ -88,7 +87,7 @@ with tab3:
 # ============================================================
 # TAB 4 — PROJECTS
 # ============================================================
-with tab4:
+with tab3:
     st.header("Projects")
 
     st.subheader("🔹 Sentiment Analysis for School Board Communications (May–Jul 2025)")
@@ -124,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
