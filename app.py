@@ -32,15 +32,15 @@ with col2:
 # ============================================================
 with tab2:
     st.header("Technical Skills")
-    col1, col2 = st.columns(2)
+    col3, col4 = st.columns(2)
 
-    with col1:
+    with col3:
         st.write("""
         **Languages:** Python, R, SQL, SAS  
         **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
         """)
 
-    with col2:
+    with col4:
         st.write("""
         **Cloud:** AWS, GCP  
         **ML/NLP:** BERT, VADER, DNN, FAISS  
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
