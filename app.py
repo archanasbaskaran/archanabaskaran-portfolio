@@ -85,8 +85,6 @@ Built a hybrid DNN + BERT + FAISS recommendation engine.
 Achieved 85% perceived relevance from user testing.
 """)
 
-st.header("📄 Team 079 Project Report")
-
 with open("team079report.pdf", "rb") as f:
     pdf_data = f.read()
 
@@ -109,6 +107,7 @@ estimating $5.6M savings over 20 years.
 """)
 
 st.markdown("---")  # changed from st.divider()
+
 
 
 
