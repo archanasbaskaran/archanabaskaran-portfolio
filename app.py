@@ -5,7 +5,7 @@ st.set_page_config(page_title="Archana Baskaran", layout="wide")
 # --- HEADER ---
 st.title("💼 Archana Baskaran")
 st.subheader("Data Analyst | MS Data Analytics (Georgia Tech)")
-st.write("Atlanta, GA | achusbaski@gmail.com | 470-731-9169")
+st.write("Atlanta, GA | achusbaski@gmail.com")
 st.write("[LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
 
 st.markdown("---")  # changed from st.divider()
@@ -42,6 +42,13 @@ st.markdown("---")  # changed from st.divider()
 
 # --- EXPERIENCE ---
 st.header("Experience")
+
+st.subheader("📌 Informatics Fellow – CDC (Oct 2024–Mar 2025)")
+st.write("""
+- Worked with metadata to extract relevant clinical features and built interactive dashboards
+- Applied AI/ML and NLP to gain insights from quantitative and qualitative clinical and epidemiological data
+- Conducted risk modeling, simulation, and performance measurement across public health programs 
+""")
 
 st.subheader("📌 Data Analyst Intern – Infor (May 2024–Aug 2024)")
 st.write("""
@@ -90,4 +97,5 @@ estimating $5.6M savings over 20 years.
 """)
 
 st.markdown("---")  # changed from st.divider()
+
 
