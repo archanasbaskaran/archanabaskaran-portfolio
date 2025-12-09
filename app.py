@@ -107,22 +107,23 @@ with tab3:
     estimating $5.6M savings over 20 years.
     """)
 
-    # --- OPTIONAL: Add PDF Viewer for Team Report ---
-    try:
-        with open("team079report.pdf", "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode("utf-8")
+    # ---  Add PDF Viewer for Report ---
+    #try:
+        #with open("team079report.pdf", "rb") as f:
+            #base64_pdf = base64.b64encode(f.read()).decode("utf-8")
 
-        st.subheader("📄 Team 079 Report")
-        st.components.v1.html(
-            f"""
-            <iframe src="data:application/pdf;base64,{base64_pdf}"
-                    width="100%" height="700" type="application/pdf">
-            </iframe>
-            """,
-            height=700,
-        )
-    except:
-        st.info("Upload **team079report.pdf** to your repo to display it here.")
+        #st.subheader("📄 Team 079 Report")
+        #st.components.v1.html(
+            #f"""
+            #<iframe src="data:application/pdf;base64,{base64_pdf}"
+                    #width="100%" height="700" type="application/pdf">
+            #</iframe>
+            #""",
+            #height=700,
+        #)
+    #except:
+        #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
