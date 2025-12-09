@@ -19,7 +19,7 @@ with tab1:
     with col1:
         st.image("Profile_Pic.JPG", use_column_width=True)
     with col2:
-        st.header("Summary")
+        st.header("About Me")
         st.write("""
         Data Analyst with experience across SaaS, federal agencies, and academic projects.
         Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
@@ -123,6 +123,7 @@ with tab4:
         )
     except:
         st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
