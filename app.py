@@ -5,8 +5,7 @@ st.set_page_config(page_title="Archana Baskaran", layout="wide")
 # --- HEADER ---
 st.title("💼 Archana Baskaran")
 st.subheader("Data Analyst | MS Data Analytics (Georgia Tech)")
-st.write("Atlanta, GA | achusbaski@gmail.com")
-st.write("[LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
+st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
 
 st.markdown("---")  # changed from st.divider()
 
@@ -97,5 +96,6 @@ estimating $5.6M savings over 20 years.
 """)
 
 st.markdown("---")  # changed from st.divider()
+
 
 
