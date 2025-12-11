@@ -20,7 +20,7 @@ with tab1:
         st.image("Profile_Pic.JPG", use_column_width=True)
     
     st.markdown("### Technical Skills")
-        colA, colB = st.columns(2)
+    colA, colB = st.columns(2)
 
         with colA:
             st.write("""
@@ -119,6 +119,7 @@ with tab3:
         #)
     #except:
         #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
