@@ -18,30 +18,26 @@ with tab1:
     col1, col2 = st.columns([1, 2])
     with col1:
         st.image("Profile_Pic.JPG", use_column_width=True)
+    
+    st.markdown("### Technical Skills")
+        colA, colB = st.columns(2)
+
+        with colA:
+            st.write("""
+            **Languages:** Python, R, SQL, SAS  
+            **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
+            """)
+
+        with colB:
+            st.write("""
+            **Cloud:** AWS, GCP  
+            **ML/NLP:** BERT, VADER, DNN, FAISS  
+            **Other:** Docker, Arena Simulation  
+            """)
+
+    # Profile picture
     with col2:
-        st.header("About Me")
-        st.write("""
-        Hi, I’m Archana Baskaran.
-        I recently graduated with a master’s in Analytics from Georgia Tech. 
-        I have hands-on experience in machine learning, statistical modeling, and data visualization through projects and internships. 
-        I’m passionate about turning data into actionable insights and building solutions that solve real-world problems. 
-        I’m eager to grow as a data professional and contribute to projects that combine technical skills with meaningful impact.
-        """)
-    st.header("Technical Skills")
-    col3, col4 = st.columns(2)
-
-    with col3:
-        st.write("""
-        **Languages:** Python, R, SQL, SAS  
-        **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
-        """)
-
-    with col4:
-        st.write("""
-        **Cloud:** AWS, GCP  
-        **ML/NLP:** BERT, VADER, DNN, FAISS  
-        **Other:** Docker, Arena Simulation  
-        """)
+        st.image("Profile_Pic.jpg", caption="Archana Baskaran", use_column_width=True)
 # ============================================================
 # TAB 2 — SKILLS
 # ============================================================
@@ -123,6 +119,7 @@ with tab3:
         #)
     #except:
         #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
