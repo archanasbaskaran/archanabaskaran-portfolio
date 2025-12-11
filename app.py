@@ -15,7 +15,7 @@ with tab1:
     st.subheader("BIS Health Informatics (Georgia State) 🐆| MS Data Analytics (Georgia Tech) 🐝")
     st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
   
-    col1, col2 = st.columns([2, 1])
+    col1, col2 = st.columns([1, 2)
     with col1:
        st.image("Profile_Pic.JPG", caption="Archana Baskaran", use_column_width=True)
    
@@ -126,6 +126,7 @@ with tab3:
         #)
     #except:
         #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
