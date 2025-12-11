@@ -17,13 +17,8 @@ with tab1:
   
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.header("Summary")
-        st.write("""
-        Data Analyst with experience across SaaS, federal agencies, and academic projects.
-        Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
-        dashboarding, machine learning, and NLP. Passionate about transforming data
-        into clear, actionable insights.
-        """)
+       st.image("Profile_Pic.JPG", caption="Archana Baskaran", use_column_width=True)
+   
     
     st.markdown("### Technical Skills")
     colA, colB = st.columns(2)
@@ -43,7 +38,13 @@ with tab1:
 
     # Profile picture
     with col2:
-        st.image("Profile_Pic.JPG", caption="Archana Baskaran", use_column_width=True)
+        st.header("Summary")
+        st.write("""
+        Data Analyst with experience across SaaS, federal agencies, and academic projects.
+        Skilled in SQL, Python, R, Tableau, and cloud technologies with strengths in
+        dashboarding, machine learning, and NLP. Passionate about transforming data
+        into clear, actionable insights.
+        """)
 # ============================================================
 # TAB 2 — SKILLS
 # ============================================================
@@ -125,6 +126,7 @@ with tab3:
         #)
     #except:
         #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
