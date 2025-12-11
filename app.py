@@ -22,13 +22,13 @@ with tab1:
     st.markdown("### Technical Skills")
     colA, colB = st.columns(2)
 
-        with colA:
+    with colA:
             st.write("""
             **Languages:** Python, R, SQL, SAS  
             **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
             """)
 
-        with colB:
+    with colB:
             st.write("""
             **Cloud:** AWS, GCP  
             **ML/NLP:** BERT, VADER, DNN, FAISS  
@@ -119,6 +119,7 @@ with tab3:
         #)
     #except:
         #st.info("Upload **team079report.pdf** to your repo to display it here.")
+
 
 
 
