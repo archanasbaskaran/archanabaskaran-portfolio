@@ -112,21 +112,18 @@ with tab3:
 
   #Add PDF Viewer for Report 
     try:
-        with open("Oil Drilling Project.pdf", "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode("utf-8")
+    with open("Oil Drilling Project.pdf", "rb") as f:
+        pdf_bytes = f.read()
 
-        st.subheader("📄 Oil Drilling Project Report")
-        st.components.v1.html(
-            f"""
-            <iframe src="data:application/pdf;base64,{base64_pdf}"
-                    #width="100%" height="700" type="application/pdf">
-            </iframe>
-            """,
-            height=700,
-        )
-    except:
-        st.info("Upload **Oil Drilling Project.pdf** to your repo to display it here.")
+    st.download_button(
+        label="⬇️ Download Project Report (PDF)",
+        data=pdf_bytes,
+        file_name="Oil_Drilling_Project_Report.pdf",
+        mime="application/pdf"
+    )
 
+except FileNotFoundError:
+    st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
 
 
 
