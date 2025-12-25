@@ -113,7 +113,7 @@ with tab3:
   #Add PDF Viewer for Report 
 st.subheader("📄 Oil Drilling Project Report")
 try:
-    with open("Oil Drilling Project.pdf", "rb") as f:
+     with open("Oil Drilling Project.pdf", "rb") as f:
         pdf_bytes = f.read()
 
     st.download_button(
@@ -125,6 +125,7 @@ try:
 
 except FileNotFoundError:
     st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
