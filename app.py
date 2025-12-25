@@ -113,7 +113,7 @@ with tab3:
 
     st.subheader("🔹 Ranking and Selection Project (May–Jul 2025)")
     st.write("""
-    NLP pipeline analyzing public education sentiment with real-time Power BI updates.
+    Implemented an R-based simulation using Bechhofer’s Ranking and Selection method to identify the best-performing queueing system.
     """)
     try:
         with open("Simulation Project.pdf", "rb") as f:
@@ -167,6 +167,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
