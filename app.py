@@ -122,10 +122,11 @@ with tab3:
                     #width="100%" height="700" type="application/pdf">
             </iframe>
             """,
-            #height=700,
+            height=700,
         )
     except:
         st.info("Upload **Oil Drilling Project.pdf** to your repo to display it here.")
+
 
 
 
