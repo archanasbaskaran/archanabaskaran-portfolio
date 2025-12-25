@@ -116,7 +116,7 @@ try:
      with open("Oil Drilling Project.pdf", "rb") as f:
         pdf_bytes = f.read()
 
-    st.download_button(
+     st.download_button(
         label="⬇️ Download Project Report (PDF)",
         data=pdf_bytes,
         file_name="Oil_Drilling_Project_Report.pdf",
@@ -125,6 +125,7 @@ try:
 
 except FileNotFoundError:
     st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
