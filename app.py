@@ -111,7 +111,23 @@ with tab3:
     except FileNotFoundError:
         st.info("Upload **Practicum.pdf** to your repository to enable download.")
 
+    st.subheader("🔹 Ranking and Selection Project (May–Jul 2025)")
+    st.write("""
+    NLP pipeline analyzing public education sentiment with real-time Power BI updates.
+    """)
+    try:
+        with open("Simulation.pdf", "rb") as f:
+             pdf_bytes = f.read()
 
+        st.download_button(
+            label="⬇️ Download Project Report (PDF)",
+            data=pdf_bytes,
+            file_name= "Simulation.pdf",
+            mime="application/pdf"
+    )
+
+    except FileNotFoundError:
+        st.info("Upload **Simulation.pdf** to your repository to enable download.")
     
     st.subheader("🔹 Hybrid STR Recommendation System (Jan–May 2025)")
     st.write("""
@@ -151,6 +167,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
