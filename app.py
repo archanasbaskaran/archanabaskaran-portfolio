@@ -97,13 +97,42 @@ with tab3:
     st.write("""
     NLP pipeline analyzing public education sentiment with real-time Power BI updates.
     """)
+    try:
+        with open("Practicum.pdf", "rb") as f:
+             pdf_bytes = f.read()
 
+        st.download_button(
+            label="⬇️ Download Project Report (PDF)",
+            data=pdf_bytes,
+            file_name= "Practicum.pdf",
+            mime="application/pdf"
+    )
+
+    except FileNotFoundError:
+        st.info("Upload **Practicum.pdf** to your repository to enable download.")
+
+
+    
     st.subheader("🔹 Hybrid STR Recommendation System (Jan–May 2025)")
     st.write("""
     Built a hybrid DNN + BERT + FAISS recommendation engine.
     Achieved 85% perceived relevance from user testing.
     """)
+    try:
+        with open("STR Project.pdf", "rb") as f:
+             pdf_bytes = f.read()
 
+        st.download_button(
+            label="⬇️ Download Project Report (PDF)",
+            data=pdf_bytes,
+            file_name= "STR Project.pdf",
+            mime="application/pdf"
+    )
+
+    except FileNotFoundError:
+        st.info("Upload **STR Project.pdf** to your repository to enable download.")
+
+    
     st.subheader("🔹 Oil Well Drilling Optimization (Aug–Dec 2024)")
     st.write("""
     Performed EDA and modeling to identify ROP drivers; produced a cost model
@@ -122,6 +151,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
