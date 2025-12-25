@@ -110,10 +110,10 @@ with tab3:
     estimating $5.6M savings over 20 years.
     """)
     try:
-         with open("Oil Drilling Project.pdf", "rb") as f:
+        with open("Oil Drilling Project.pdf", "rb") as f:
              pdf_bytes = f.read()
 
-         st.download_button(
+        st.download_button(
             label="⬇️ Download Project Report (PDF)",
             data=pdf_bytes,
             file_name= "Oil_Drilling_Project_Report.pdf",
@@ -122,6 +122,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
