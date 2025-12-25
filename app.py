@@ -110,7 +110,7 @@ with tab3:
     estimating $5.6M savings over 20 years.
     """)
 
----  Add PDF Viewer for Report ---
+  #Add PDF Viewer for Report 
     try:
         with open("Oil Drilling Project.pdf", "rb") as f:
             base64_pdf = base64.b64encode(f.read()).decode("utf-8")
@@ -126,6 +126,7 @@ with tab3:
         )
     except:
         st.info("Upload **Oil Drilling Project.pdf** to your repo to display it here.")
+
 
 
 
