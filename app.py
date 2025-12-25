@@ -98,18 +98,18 @@ with tab3:
     NLP pipeline analyzing public education sentiment with real-time Power BI updates.
     """)
     try:
-        with open("Practicum.pdf", "rb") as f:
+        with open("BOE Report Practicum.pdf", "rb") as f:
              pdf_bytes = f.read()
 
         st.download_button(
             label="⬇️ Download Project Report (PDF)",
             data=pdf_bytes,
-            file_name= "Practicum.pdf",
+            file_name= "BOE Report Practicum.pdf",
             mime="application/pdf"
     )
 
     except FileNotFoundError:
-        st.info("Upload **Practicum.pdf** to your repository to enable download.")
+        st.info("Upload **BOE Report Practicum.pdf** to your repository to enable download.")
 
     st.subheader("🔹 Ranking and Selection Project (May–Jul 2025)")
     st.write("""
@@ -167,6 +167,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
