@@ -111,7 +111,7 @@ with tab3:
     """)
 
   #Add PDF Viewer for Report 
-    try:
+try:
     with open("Oil Drilling Project.pdf", "rb") as f:
         pdf_bytes = f.read()
 
@@ -124,6 +124,7 @@ with tab3:
 
 except FileNotFoundError:
     st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
