@@ -16,34 +16,37 @@ with tab1:
     st.write("Atlanta, GA | achusbaski@gmail.com | [LinkedIn](https://www.linkedin.com/in/archana-baskaran-2a605517b/)")
   
     col1, col2 = st.columns([1, 2])
-    with col1:
-       st.image("Profile_Pic.JPG", caption="Archana Baskaran", use_column_width=True)
-   
-    
+
+# Left column (profile picture)
+with col1:
+    st.image("profile.jpg", use_container_width=True)
+    st.caption("Archana Baskaran")
+
+# Right column (summary + skills stacked)
+with col2:
+    st.header("Summary")
+    st.write("""
+    Hello, I'm a recent Master’s graduate in Analytics from Georgia Tech, with an undergraduate background in Health Informatics from Georgia State. 
+    I have hands-on experience building data-driven projects using Python, R, SQL, Tableau, and PowerBI, and I enjoy transforming complex data into clear insights through analysis and visualization. 
+    With a strong interdisciplinary foundation and practical project experience, I’m eager to grow into a data-focused role and continue creating meaningful impact ⭐
+    """)
+
     st.markdown("### Technical Skills")
     colA, colB = st.columns(2)
 
     with colA:
-            st.write("""
-            **Languages:** Python, R, SQL, SAS  
-            **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
-            """)
+        st.write("""
+        **Languages:** Python, R, SQL, SAS  
+        **Analytics Tools:** Tableau, Power BI, DOMO, Excel  
+        """)
 
     with colB:
-            st.write("""
-            **Cloud:** AWS, GCP  
-            **ML/NLP:** BERT, VADER, DNN, FAISS  
-            **Other:** Docker, Arena Simulation  
-            """)
-
-    # Profile picture
-    with col2:
-        st.header("Summary")
         st.write("""
-        Hello, I'm a recent Master’s graduate in Analytics from Georgia Tech, with an undergraduate background in Health Informatics from Georgia State. 
-        I have hands-on experience building data-driven projects using Python, R, SQL, Tableau, and PowerBI, and I enjoy transforming complex data into clear insights through analysis and visualization. 
-        With a strong interdisciplinary foundation and practical project experience, I’m eager to grow into a data-focused role and continue creating meaningful impact ⭐
+        **Cloud:** AWS, GCP  
+        **ML/NLP:** BERT, VADER, DNN, FAISS  
+        **Other:** Docker, Arena Simulation  
         """)
+
 # ============================================================
 # TAB 2 — SKILLS
 # ============================================================
@@ -166,6 +169,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
