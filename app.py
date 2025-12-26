@@ -56,13 +56,6 @@ with tab1:
 with tab2:
     st.header("Experience")
 
-    st.subheader("🌟 Informatics Fellow – CDC (Oct 2024–Mar 2025)")
-    st.write("""
-    - Worked with metadata to extract relevant clinical features and built interactive dashboards  
-    - Applied AI/ML and NLP to gain insights from quantitative and qualitative clinical and epidemiological data  
-    - Conducted risk modeling, simulation, and performance measurement across public health programs  
-    """)
-
     st.subheader("🌟 Data Analyst Intern – Infor (May 2024–Aug 2024)")
     st.write("""
     - Streamlined 20+ dashboards, reducing reporting redundancy across sales & marketing  
@@ -167,6 +160,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
