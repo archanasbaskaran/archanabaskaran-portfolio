@@ -19,7 +19,7 @@ with tab1:
 
 # Left column (profile picture)
 with col1:
-    st.image("profile.jpg", use_container_width=True)
+    st.image("Profile_Pic.jpg", use_container_width=True)
     st.caption("Archana Baskaran")
 
 # Right column (summary + skills stacked)
@@ -169,6 +169,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
