@@ -40,7 +40,7 @@ with tab1:
     with col2:
         st.header("Summary")
         st.write("""
-        I’m Archana Baskaran, a recent Master’s graduate in Analytics from Georgia Tech, with an undergraduate background in Health Informatics from Georgia State. 
+        Hello, I'm a recent Master’s graduate in Analytics from Georgia Tech, with an undergraduate background in Health Informatics from Georgia State. 
         I have hands-on experience building data-driven projects using Python, R, SQL, Tableau and PowerBI, and I enjoy transforming complex data into clear insights through analysis and visualization. 
         With a strong interdisciplinary foundation and practical project experience, I’m eager to grow into a data-focused role and continue creating meaningful impact ⭐
         """)
@@ -166,6 +166,7 @@ with tab3:
 
     except FileNotFoundError:
         st.info("Upload **Oil Drilling Project.pdf** to your repository to enable download.")
+
 
 
 
