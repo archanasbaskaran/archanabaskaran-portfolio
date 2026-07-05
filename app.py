@@ -31,7 +31,7 @@ with tab1:
 
     with colB:
             st.write("""
-            **Cloud:** AWS, Google CLoud Platform  
+            **Cloud:** AWS, Google Cloud Platform  
             **ML/NLP:** BERT, VADER, DNN, FAISS  
             **Other:** Docker, Arena Simulation  
             """)
